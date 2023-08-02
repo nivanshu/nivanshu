@@ -96,42 +96,17 @@ gender: male <input type="radio" name="my gender" id=""> female <input type="rad
     </tr>
  </table>
  <form action="">
-    <label for="" style="color: blueviolet;">name </label>
-    <input type="text" name="" id="">
-    <br><br>
-    <label for="" style="color: aqua;">email</label>
-  <input type="email" name="nivanshu" ><br>  <br>
- password : <input type="password" name="" ><br><br>
- gender : <br><br>
-male <input type="radio" name="e"> 
-female <input type="radio"name ="e">
-<br><br>
-
+    name :<input type="text"><br>
+ email : <input type="email" name="nivanshu" ><br>
+ password : <input type="password" name="" ><br>
+ gender :br
+male <input type="radio" name="e"> male 
+female <input type="radio"name ="e">female
+<input type="color" name="my color" id="">
 <input type="color">
-<br><br>
-date and time : <input type="datetime">
-<br>
-attach file <input type="file" name="nishu" id=""><br><br>
-range <input type="range" ><br><br>
-<select name="" id=""><br><br>
-    <option value="">none</option>
-    <option value="">jaipur</option>
-    <option value="">alwar</option>
-    <option value="">jodhpur</option>
-    <option value="">delhi</option>
-</select>
-<br><br>
-<textarea name="" id="" cols="30" rows="10"></textarea><br><br>
-<button>submit</button>
-<h1>my name is <span style="color: brown;">nivanshu</span> gupta </h1>
-html <progress id="file" max="100" value="80"></progress><br><br>
-css <progress id="file" max="100" value="70"></progress><br><br>
-javascript <progress id="file" max="100" value="50" value="10"></progress><br><br>
-
-<h1 style="color: blueviolet; border: 2px solid black; text-transform: capitalize; font: size 50px; ;">this is my heading</h1>
-
-
-
+<input type="datetime">
+<input type="file" name="nishu" id="">
+<input type="range" >
 
  </form>
  
