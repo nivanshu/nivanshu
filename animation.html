@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .box{
+        height: 200px;
+        width: 20%;
+        background-color: rgb(12, 10, 9);
+        animation-name: front;
+        animation-duration: 8s;
+        animation-iteration-count:3;
+        position: relative;
+        }
+        @keyframes front{
+            0%{
+                top: 0px;
+              
+                left: 300px;
+                background-color: black;
+            }
+            20%{
+                top: 0px;
+                left: 300px;
+                background-color: blueviolet;
+            }
+            30%{
+                top: 0px;
+                left: 200px;
+                bottom: 400px;
+                background-color: darkgreen;
+            }
+            40%{
+                top: 200px;
+                left: 0px;
+                background-color:transparent; 
+                
+            }
+            60%{
+                top: 300px;
+                left: 100px;
+                background-color: chartreuse;
+            }
+            80%{
+                top: 0px;
+                bottom: 250;
+                left: 100px;
+                background-color: cyan;
+
+            }
+            90%{
+                top: 10px;
+                left: 400px;
+                background-color: greenyellow;
+                
+
+            }
+            100%{
+                top: 200px;
+                left: 400px;
+                right: 200px;
+                background-color: indigo;
+            }
+            from{
+                background-color: blueviolet;
+                border-radius: 1px;
+            }
+            to{
+                background-color: rgb(130, 122, 136);
+                border-radius: 100px;
+            }
+
+            }
+        
+        
+
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>
